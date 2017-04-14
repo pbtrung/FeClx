@@ -1,0 +1,12 @@
+[package]
+name = "FeClx"
+version = "0.1.0"
+authors = ["Trung Pham <me@trungbpham.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+repository = "https://github.com/pbtrung/FeClx"
+description = "Rust language bindings for libsodium"
+keywords = ["libsodium", "encryption"]
+include = ["src/*", "Cargo.toml", "LICENSE", "README.md"]
+
+[dependencies]
