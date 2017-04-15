@@ -1,5 +1,5 @@
 [package]
-name = "FeClx"
+name = "feclx"
 version = "0.1.0"
 authors = ["Trung Pham <me@trungbpham.com>"]
 license = "BSD-3-Clause"
@@ -10,3 +10,5 @@ keywords = ["libsodium", "encryption"]
 include = ["src/*", "Cargo.toml", "LICENSE", "README.md"]
 
 [dependencies]
+libc = "0.2.21"
+rand = "0.3.15"
