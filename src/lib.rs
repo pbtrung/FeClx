@@ -1,6 +1,6 @@
 //! Rust language bindings for [libsodium](https://github.com/jedisct1/libsodium)
 //!
-//! Sodium is a modern, easy-to-use software library for encryption, decryption, 
+//! Sodium is a modern, easy-to-use software library for encryption, decryption,
 //! signatures, password hashing and more.
 
 // For explanation of lint checks, run `rustc -W help`
@@ -10,8 +10,9 @@
         non_shorthand_field_patterns, overflowing_literals, plugin_as_library,
         private_no_mangle_fns, private_no_mangle_statics, stable_features, unconditional_recursion,
         unknown_lints, unused, unused_allocation, unused_attributes, unused_comparisons,
-        unused_features, unused_parens, while_true)]
-#![warn(trivial_numeric_casts, unused_extern_crates, unused_import_braces,
+        unused_features, unused_parens, while_true, trivial_numeric_casts, unstable_features,
+        unused_import_braces)]
+#![warn(unused_extern_crates,
         unused_qualifications, unused_results)]
 // Allow `trivial_casts` to cast `u8` to `c_char`, which is `u8` or `i8`, depending on the
 // architecture.
