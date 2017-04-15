@@ -12,8 +12,7 @@
         unknown_lints, unused, unused_allocation, unused_attributes, unused_comparisons,
         unused_features, unused_parens, while_true, trivial_numeric_casts, unstable_features,
         unused_import_braces)]
-#![warn(unused_extern_crates,
-        unused_qualifications, unused_results)]
+#![warn(unused_extern_crates, unused_qualifications, unused_results)]
 // Allow `trivial_casts` to cast `u8` to `c_char`, which is `u8` or `i8`, depending on the
 // architecture.
 #![allow(box_pointers, fat_ptr_transmutes, missing_copy_implementations,
