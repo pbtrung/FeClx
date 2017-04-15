@@ -17,3 +17,9 @@
 // architecture.
 #![allow(box_pointers, fat_ptr_transmutes, missing_copy_implementations,
          missing_debug_implementations, trivial_casts, unsafe_code, variant_size_differences)]
+
+#[macro_use]
+extern crate unwrap;
+
+/// This module contains all libsodium bindings.
+pub mod sodium;
